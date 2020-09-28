@@ -14,8 +14,10 @@ import './bootstrap';
  */
 
 import ValidatedForm from './components/ValidatedForm';
+import ValidatedFormRegister from './components/ValidatedFormRegister';
 
 Vue.component('validated-form', ValidatedForm);
+Vue.component('validated-form-register', ValidatedFormRegister);
 
 const app = new Vue({
     el: '#app'

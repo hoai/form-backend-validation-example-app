@@ -13,3 +13,5 @@
 
 Route::get('/', 'ProjectsController@index');
 Route::post('store', 'ProjectsController@store');
+Route::get('/register', 'RegisterController@index');
+Route::post('/register', 'RegisterController@save');
